@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCouple.IO", "DCouple.IO\DCouple.IO.csproj", "{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{35B64A97-4DDE-460A-998C-D20D075240A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCouple.IO.Tests", "DCouple.IO.Tests\DCouple.IO.Tests.csproj", "{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example App", "Example App", "{A5742143-1270-497A-928C-023D094C8B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopy", "FileCopy\FileCopy.csproj", "{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopy.UnitTests", "FileCopy.UnitTests\FileCopy.UnitTests.csproj", "{CABC0965-BCC8-4E65-A1C4-C00DAA201999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Debug|x86.Build.0 = Debug|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Release|x86.ActiveCfg = Release|Any CPU
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A}.Release|x86.Build.0 = Release|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}.Release|x86.ActiveCfg = Release|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Debug|x86.Build.0 = Debug|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Release|x86.ActiveCfg = Release|Any CPU
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0} = {35B64A97-4DDE-460A-998C-D20D075240A7}
+		{7CC01DB2-1F45-41F6-B79E-3EDF3C5B015A} = {A5742143-1270-497A-928C-023D094C8B38}
+		{CABC0965-BCC8-4E65-A1C4-C00DAA201999} = {A5742143-1270-497A-928C-023D094C8B38}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DCouple.IO\DCouple.IO.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 120
+		$4.EolMarker = Windows
+		$4.inheritsSet = VisualStudio
+		$4.inheritsScope = text/plain
+		$4.scope = text/plain
+		$0.StandardHeader = $5
+		$5.Text = 
+		$5.IncludeInNewFiles = True
+		$0.VersionControlPolicy = $6
+		$6.inheritsSet = Mono
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
