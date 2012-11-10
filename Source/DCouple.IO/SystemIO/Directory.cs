@@ -110,11 +110,11 @@ namespace DCouple.IO.SystemIO
         }
 
         /// <summary>
-        /// Returns true if this directory exists at the root of it's <see cref="Directory.FileSystem"/>
+        /// Returns true if this directory exists at the root of it's <see cref="FileSystem"/>
         /// </summary>
         public bool IsRoot
         {
-            get { return Root == null ? false : Root.FullName == FullName ; }
+            get { return Root != null && Root.FullName == FullName ; }
         }
 
         /// <summary>
@@ -168,13 +168,14 @@ namespace DCouple.IO.SystemIO
         /// </summary>
         public IDirectory Root
         {
-            get { return _directoryInfo.Root==null ? null : new Directory(_directoryInfo.Root); }
+            get { return new Directory(_directoryInfo.Root); }
         }
 
         /// <summary>
         /// Creates a new sub directory in this directory
         /// </summary>
-        /// <param name="name">the name of the new directory</param>
+        /// <param name="directorySecurity"></param>
+        /// <param name="path">The path of the new director</param>
         /// <returns>A <see cref="IDirectory"/> instance representing the new sub directory</returns>
         public IDirectory CreateDirectory(string path, DirectorySecurity directorySecurity)
         {
@@ -184,7 +185,7 @@ namespace DCouple.IO.SystemIO
          /// <summary>
         /// Creates a new sub directory in this directory
         /// </summary>
-        /// <param name="name">the name of the new directory</param>
+        /// <param name="path">the path of the new directory</param>
         /// <returns>A <see cref="IDirectory"/> instance representing the new sub directory</returns>
         public IDirectory CreateDirectory(string path)
         {

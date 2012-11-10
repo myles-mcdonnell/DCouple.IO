@@ -66,7 +66,7 @@ namespace DCouple.IO.SystemIO
 
         public void CopyTo(IDirectory directory, string fileName, bool overwrite)
         {
-            _fileInfo.CopyTo(string.Format("{0},{1},{2}", directory.FullName, System.IO.Path.DirectorySeparatorChar, fileName), overwrite);
+            _fileInfo.CopyTo(string.Format("{0},{1},{2}", directory.FullName, Path.DirectorySeparatorChar, fileName), overwrite);
         }
 
         public void MoveTo(IDirectory directory)
@@ -76,7 +76,7 @@ namespace DCouple.IO.SystemIO
 
         public void MoveTo(IDirectory directory, string fileName)
         {
-            _fileInfo.MoveTo(string.Format("{0},{1},{2}", directory.FullName, System.IO.Path.DirectorySeparatorChar, fileName));
+            _fileInfo.MoveTo(string.Format("{0},{1},{2}", directory.FullName, Path.DirectorySeparatorChar, fileName));
         }
 
         public void Delete()

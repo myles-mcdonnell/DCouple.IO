@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -44,7 +44,7 @@
     <Compile Include="FileWriter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MPM.IO\DCouple.IO.csproj">
+    <ProjectReference Include="..\DCouple.IO\DCouple.IO.csproj">
       <Project>{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}</Project>
       <Name>DCouple.IO</Name>
     </ProjectReference>

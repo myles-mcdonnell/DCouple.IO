@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,8 +8,8 @@
     <ProjectGuid>{3DD5F0DF-19B2-4BC8-B461-DD387E01B3E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MPM.IO.Tests</RootNamespace>
-    <AssemblyName>MPM.IO.Tests</AssemblyName>
+    <RootNamespace>DCouple.IO.Tests</RootNamespace>
+    <AssemblyName>DCouple.IO.Tests</AssemblyName>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -55,7 +55,7 @@
     <Content Include="Root\Sub0\Sub1\sub1_file0.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MPM.IO\DCouple.IO.csproj">
+    <ProjectReference Include="..\DCouple.IO\DCouple.IO.csproj">
       <Project>{C1AD81FD-06C8-4517-BA71-44A93B5B9E46}</Project>
       <Name>DCouple.IO</Name>
     </ProjectReference>

@@ -26,5 +26,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("bc26a700-734a-46ee-a1ee-94a249ccf3e1")]
-[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.1.0.0")]
 [assembly: InternalsVisibleTo("DCouple.IO.Tests")]
