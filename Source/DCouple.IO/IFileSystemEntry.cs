@@ -46,7 +46,8 @@ namespace DCouple.IO
         /// <summary>
         /// The directory at the root of this directory tree
         /// </summary>
-        IDirectory Root { get; }        bool Exists{ get; }
+        IDirectory Root { get; }
+        bool Exists{ get; }
 
         /// <summary>
         /// Refresh this instance.

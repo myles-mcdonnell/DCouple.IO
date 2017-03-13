@@ -56,6 +56,10 @@ namespace DCouple.IO
         /// </value>
         IDirectory CurrentDirectory{get;}
 
+        string[] GetFiles(string path, string searchPattern, System.IO.SearchOption options);
+
+        void WriteAllText(string path, string text);
+
         string[] LogicalDrives{get;}
 
     }

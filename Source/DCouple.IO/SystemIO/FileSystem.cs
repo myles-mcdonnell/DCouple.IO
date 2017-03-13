@@ -71,6 +71,16 @@ namespace DCouple.IO.SystemIO
                 return System.IO.Directory.GetLogicalDrives();
             }
         }
+
+        public string[] GetFiles(string path, string searchPattern, System.IO.SearchOption options)
+        {
+            return System.IO.Directory.GetFiles(path, searchPattern, options);
+        }
+
+        public void WriteAllText(string path, string text)
+        {
+            System.IO.File.WriteAllText(path, text);
+        }
     }
 }
 
